@@ -69,7 +69,7 @@ export default function BusinessIdeaGenerator() {
               </div>
             </div>
 
-            <div className="mt-8 text-center">
+            <div className="mt-8 flex gap-4 justify-center">
               <button
                 onClick={() => {
                   setStep('form');
@@ -78,6 +78,24 @@ export default function BusinessIdeaGenerator() {
                 className="bg-purple-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-purple-700 transition-colors"
               >
                 Generate New Ideas
+              </button>
+              <button
+                onClick={() => {
+                  setStep('form');
+                  setGeneratedContent('');
+                  setFormData({
+                    skill: '',
+                    experience: '',
+                    interests: '',
+                    time: '',
+                    monetization: '',
+                    income: '',
+                    tone: ''
+                  });
+                }}
+                className="bg-gray-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-gray-700 transition-colors"
+              >
+                Start Fresh
               </button>
             </div>
           </div>
@@ -227,6 +245,24 @@ export default function BusinessIdeaGenerator() {
                   Generate My Business Ideas
                 </>
               )}
+            </button>
+
+            <button
+              onClick={() => {
+                setFormData({
+                  skill: '',
+                  experience: '',
+                  interests: '',
+                  time: '',
+                  monetization: '',
+                  income: '',
+                  tone: ''
+                });
+                setError('');
+              }}
+              className="w-full py-3 rounded-lg font-semibold text-gray-600 border-2 border-gray-300 hover:bg-gray-50 transition-colors"
+            >
+              Clear Form
             </button>
           </div>
         </div>
