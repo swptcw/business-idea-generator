@@ -16,6 +16,10 @@ export default async function handler(req, res) {
 
   const { skill, experience, interests, time, monetization, income, tone } = req.body;
 
+  if (!process.env.ANTHROPIC_API_KEY) {
+    return res.status(500).json({ error: 'API key not configured' });
+  }
+
   const prompt = `Act as a business strategist and idea architect.
 Generate 5 profitable business or side-hustle ideas that transform this person's existing skills and interests into clear, monetizable offers.
 Each idea must include a defined audience, monetization path, and first actionable step — ready to execute immediately.
@@ -75,8 +79,11 @@ End with: "Word Count: [approximate count] | All Checks ✅"`;
     });
 
     if (!response.ok) {
-      const error = await response.json();
-      throw new Error(error.error?.message || 'API request failed');
+      const errorText = await response.text();
+      console.error('Anthropic API error:', errorText);
+      return res.status(response.status).json({ 
+        error: `API request failed: ${response.status}` 
+      });
     }
 
     const data = await response.json();
@@ -85,6 +92,8 @@ End with: "Word Count: [approximate count] | All Checks ✅"`;
     return res.status(200).json({ content });
   } catch (error) {
     console.error('Error:', error);
-    return res.status(500).json({ error: error.message || 'Failed to generate ideas' });
+    return res.status(500).json({ 
+      error: error.message || 'Failed to generate ideas' 
+    });
   }
 }
