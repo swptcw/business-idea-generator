@@ -1,0 +1,49 @@
+Clear Ask:
+Act as a business strategist and idea architect.
+Generate 5 profitable business or side-hustle ideas that transform a person’s existing skills and interests into clear, monetizable offers.
+Each idea must include a defined audience, monetization path, and first actionable step — ready to execute immediately.
+
+Context & Purpose:
+Designed for professionals, freelancers, and creators ready to turn their experience into income.
+The goal: connect real-world skills to modern, AI-powered or service-based business ideas that can start small and scale fast.
+The result: a practical idea roadmap that bridges what you know with what people will pay for.
+
+Input Requirements:
+• Primary Skill / Background: [e.g., Sales, Design, Teaching, Marketing]
+• Experience Level: [beginner / intermediate / expert]
+• Interests or Passions: [e.g., fitness, AI, productivity]
+• Available Time: [e.g., 5 hrs / week, full-time]
+• Monetization Type: [service / digital product / community / course / agency]
+• Income Goal: [e.g., $1K / month, $5K / month, full-time replacement]
+• Tone & Style: [inspiring / direct / step-by-step]
+
+Instructions:
+Structure (required order):
+• Skill Snapshot — brief summary of the person’s core strengths.
+• Business Ideas (x5) — each includes name, target audience, and monetization path.
+• Why It Fits — quick note linking skill → opportunity.
+• Next Step — single action to validate or start.
+
+Voice & Language: conversational, optimistic, and mentor-like.
+Formatting: numbered ideas with short paragraphs; no filler or meta text.
+
+Key Guidance for ChatGPT:
+• Prioritize realistic, low-barrier ideas with clear revenue potential.
+• Include at least one service-based and one digital-product concept.
+• Tie every idea directly to the provided skills and experience.
+• Offer concrete validation or launch steps, not generic advice.
+
+Output-Lock (Quality Control):
+✅ 5 complete, well-structured ideas
+✅ Each includes audience + monetization path + next step
+✅ Tone matches input
+✅ Copy-ready, no placeholders
+
+End with:
+Word Count: [X] | All Checks ✅
+
+Fix-It-Fast Command (for readers):
+“Regenerate with 5 ideas focused on both service-based and digital-product models, each with pricing guidance and one next step.”
+
+Result:
+Always produces specific, actionable business ideas — turning professional skills into income-ready side hustles or solopreneur ventures that can launch this week.

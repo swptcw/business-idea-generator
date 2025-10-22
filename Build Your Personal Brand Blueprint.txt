@@ -1,0 +1,54 @@
+Build Your Personal Brand Blueprint
+
+Turn ChatGPT into your brand coach.
+Prompt ChatGPT:
+Role: Brand strategist
+Task: Help me define my personal brand foundation.
+Context: I’m a [creator/founder/freelancer] who helps [audience] achieve [result].
+Output: My brand mission, personality traits, tone of voice, and 3–5 key content themes.
+➡️ Next action: Copy the final brand blueprint into Notion as your “Brand Identity” page.
+
+Craft Your Signature Voice Prompt
+
+Develop a reusable ChatGPT prompt that replicates your voice every time you create content.
+Prompt ChatGPT:
+Role: Prompt engineer and copy coach
+Task: Create a reusable voice prompt that matches my brand tone, values, and audience.
+Context: Use my brand blueprint above to guide the language and personality.
+Output: A complete ChatGPT prompt I can paste into any chat to generate consistent brand-aligned content.
+➡️ Next action: Save this in Notion under “Voice Prompt.”
+
+Generate Endless On-Brand Ideas
+
+Now that ChatGPT knows your voice, use it to brainstorm your first content batch.
+Prompt ChatGPT:
+Role: Content strategist
+Task: Generate 20 social post ideas that align with my brand tone and themes.
+Context: Use my voice prompt for message consistency and audience relevance.
+Output: 20 content ideas with 1-line summaries each.
+➡️ Next action: Paste your favorite ideas into Notion for tracking.
+
+Create Your Notion Brand Dashboard (with Notion AI)
+
+Let Notion AI set up your creative pipeline automatically.
+Prompt Notion AI:
+Create a “Personal Brand Content Hub” database with columns for Idea, Platform, Publish Date, Link, and Status. Add dropdown filters for “Draft,” “Needs Design,” and “Published.” Include one summary view showing total posts by platform.
+➡️ Next action: Run the prompt in Notion AI and pin your dashboard to your main workspace.
+
+Turn ChatGPT Into Your Brand Operations Partner
+
+Use your voice prompt weekly to generate new content in your exact tone.
+Prompt ChatGPT:
+Role: My personal brand copywriter
+Task: Write a [LinkedIn post / tweet thread / short script] in my voice based on this idea: [paste idea].
+Context: Use my saved voice prompt to maintain consistency and tone.*
+Output: 1 polished draft ready to post.*
+➡️ Next action: Add the draft to Notion under “Ready to Publish.”
+
+Pro Tip (Upgrade):
+Use Looka to instantly generate a logo, color palette, and font combo that visually match your ChatGPT-defined brand identity — then upload those brand assets to your Notion dashboard.
+
+Why It Works:
+ChatGPT shapes the strategy and voice, Notion AI builds the system, and Looka creates the visual identity — giving you a full AI-powered personal brand in a single afternoon. You walk away with clarity, consistency, and a content engine that runs on autopilot.
+
+Discover the AI tools I trust — organized, updated, and built to help you win.
